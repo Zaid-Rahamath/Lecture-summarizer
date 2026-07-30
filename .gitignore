@@ -1,0 +1,11 @@
+# Secrets — never commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Local database (your personal summary history — not part of the app itself)
+grimoire.db
